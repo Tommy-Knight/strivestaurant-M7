@@ -1,7 +1,7 @@
 import { Container, Row, Col, ListGroup } from "react-bootstrap";
-import { pasta, comment, selectedPasta } from "../helpers/interface";
+import { pasta, comment, selectedPasta, cheat } from "../helpers/interface";
 
-export const DishComments = ({ selectedPasta }: pasta | selectedPasta | null | any) => {
+export const DishComments = ({ selectedPasta }: pasta | selectedPasta | null | cheat) => {
 	console.log("here", selectedPasta);
 
 	return (

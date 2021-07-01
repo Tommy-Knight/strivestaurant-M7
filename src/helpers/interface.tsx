@@ -39,3 +39,4 @@ export interface comment {
 	id: number;
 	comment: string;
 }
+export type cheat = any

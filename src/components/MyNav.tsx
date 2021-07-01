@@ -1,8 +1,8 @@
 import { Navbar, Nav } from "react-bootstrap";
 import { Link, withRouter, RouteComponentProps } from "react-router-dom";
-import { shopTitle } from "../helpers/interface";
+import { cheat } from "../helpers/interface";
 
-const MyNav = (props: any) => {
+const MyNav = (props: cheat) => {
     
     return (
 	<Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
